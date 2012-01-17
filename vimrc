@@ -6,7 +6,7 @@ if has("gui_running")
     set guioptions-=r
     set lines=54 columns=90
 endif
-colorscheme molokai
+colorscheme ir_black
 set guifont=Inconsolata:h15
 
 " Necessary for cool Vim stuff
@@ -37,6 +37,7 @@ syntax enable
 
 " Handle whitespace
 set autoindent
+set smartindent
 set expandtab
 set smarttab
 set shiftwidth=4
@@ -96,10 +97,10 @@ nnoremap j gj
 nnoremap k gk
 
 " stop common editing commands from saving stuff in " and 0
-nnoremap d "_d
-vnoremap d "_d
-nnoremap D "_D
-vnoremap D "_D
+"nnoremap d "_d
+"vnoremap d "_d
+"nnoremap D "_D
+"vnoremap D "_D
 nnoremap c "_c
 vnoremap c "_c
 nnoremap C "_C
@@ -128,3 +129,9 @@ nnoremap <space> :
 " Map the arrows to something useful
 nnoremap <right> :bn<cr>
 nnoremap <left> :bp<cr>
+
+" Abbreviations
+abbr lheys Laura Heyser --
+abbr smead Stephanie Mead --
+abbr bsch Bryan Schultz --
+abbr lbkp LB Kemp --
