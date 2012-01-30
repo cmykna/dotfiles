@@ -6,8 +6,8 @@ if has("gui_running")
     set guioptions-=r
     set lines=54 columns=90
 endif
-colorscheme ir_black
-set guifont=Inconsolata:h15
+colorscheme molokai
+set guifont=Inconsolata:h18
 
 " Necessary for cool Vim stuff
 set nocompatible
